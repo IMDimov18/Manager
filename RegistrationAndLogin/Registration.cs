@@ -89,5 +89,10 @@ namespace RegistrationAndLogin
         {
 
         }
+
+        private void txtpassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
