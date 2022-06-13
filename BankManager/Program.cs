@@ -1,4 +1,7 @@
-﻿using System;
+﻿using BankManager.Data;
+using BankManager.Data.Models;
+using System;
+using System.Collections.Generic;
 
 namespace BankManager
 {
@@ -6,7 +9,9 @@ namespace BankManager
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            using var ctx = new BankManagerDbContext();
+
+            
         }
     }
 }

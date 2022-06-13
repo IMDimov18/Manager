@@ -12,5 +12,8 @@ namespace BankManager.Data.Models
         public string Manager { get; set; }
         public string Owner { get; set; }
         public string Support { get; set; }
+
+        public Users User { get; set; }
+        public int UserId { get; set; }
     }
 }
