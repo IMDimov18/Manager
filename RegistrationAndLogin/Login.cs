@@ -20,7 +20,7 @@ namespace RegistrationAndLogin
 
         private void Login_Load(object sender, EventArgs e)
         {
-            var cn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=H:\Website\RegistrationAndLogin\Database.mdf;Integrated Security=True");
+            var cn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\IMDimov18\source\repos\Manager\RegistrationAndLogin\Database.mdf;Integrated Security=True");
             cn.Open();
         }
 
